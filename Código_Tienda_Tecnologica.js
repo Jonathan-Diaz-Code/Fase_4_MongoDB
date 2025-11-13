@@ -253,7 +253,7 @@ db.pedidos.aggregate([
   { $sort: { total_por_estado: -1 } }
 ]);
 
-// 5. Cantidad de productos en carritos
+// 5. Cantidad de productos en el carrito
 db.carrito.aggregate([
   { $unwind: "$productos" },
   {
@@ -264,3 +264,4 @@ db.carrito.aggregate([
   },
   { $sort: { total_items_carrito: -1 } }
 ]);
+
