@@ -44,10 +44,11 @@ Este diseño aprovecha la flexibilidad del modelo documental de MongoDB, permiti
 ### 2. Cargar el archivo de script
 
 1. Clonar o descargar este repositorio en el equipo local.  
-2. Abrir una terminal y ubicarse en la carpeta donde se encuentra el archivo `tienda_tecno_mongodb.js`.  
-3. Abrir la consola de MongoDB (por ejemplo: `mongosh`).  
+2. Abrir una terminal y ubicarse en la carpeta donde se encuentra el archivo `Código_Tienda_Tecnologica.js`.  
+3. Abrir la consola de MongoDB .  
 4. Ejecutar el archivo de la siguiente manera:
 
    ```bash
-   mongosh < tienda_tecno_mongodb.js
+   mongosh < Código_Tienda_Tecnologica.js
+
 
