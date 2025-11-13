@@ -5,7 +5,7 @@ Este repositorio contiene la implementación de una base de datos NoSQL en **Mon
 
 El objetivo es aplicar los conceptos de bases de datos NoSQL orientadas a documentos, diseñando colecciones, insertando datos de prueba y ejecutando consultas CRUD y de agregación que permitan analizar la información almacenada.
 
----
+
 
 ##  Estructura del repositorio
 
@@ -19,7 +19,7 @@ El objetivo es aplicar los conceptos de bases de datos NoSQL orientadas a docume
 
 > Nota: El archivo está organizado por secciones con comentarios para facilitar su lectura y ejecución.
 
----
+
 
 ## Modelo de datos
 
@@ -34,7 +34,7 @@ Este diseño aprovecha la flexibilidad del modelo documental de MongoDB, permiti
 
 ---
 
-## ▶️ Instrucciones de ejecución
+## Instrucciones de ejecución
 
 ### 1. Requisitos previos
 
@@ -50,3 +50,4 @@ Este diseño aprovecha la flexibilidad del modelo documental de MongoDB, permiti
 
    ```bash
    mongosh < tienda_tecno_mongodb.js
+
